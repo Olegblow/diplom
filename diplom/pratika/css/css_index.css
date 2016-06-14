@@ -1,0 +1,88 @@
+footer, nav, header, section, aside {
+ 
+display: block
+ 
+}
+/*-------------------------*/
+#bphot{
+    display: inline-block;
+    position: relative;
+    font-size: 50%;
+    margin:  185px 0px 0px 75px;
+    background-color:#fff;
+    opacity: 0.7;
+}
+#bphot:hover{
+    opacity: 1;
+}
+
+#bphot #modal_close {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  top: 7px;
+  right: 0px;
+  cursor: pointer;
+  display: block;
+
+}
+
+#myvideo
+{
+    position: absolute;
+}
+#controls span {
+    display:inline-block;
+    margin: 15px 0px 0px 0px;
+    z-index: 2147483647;
+
+
+  }
+
+#playpause {
+	
+    background:#aca;
+    color:#333;
+    padding:0 5px;
+    font-size:15pt;
+    text-transform:uppercase;
+    margin: 0px 0px 10px 0px;
+    
+}
+#volume{
+background:#eee;
+    color:#333;
+    padding:0 0px;
+    font-size:15pt;
+    text-transform:uppercase;
+    margin: 0px 0px 0px 0px;
+
+}
+
+
+#dynamic {
+    fill:#333;
+    padding:0 5px;
+}
+            
+#dynamic.off {
+    fill:#ccc;
+}
+
+#gg{
+   display: none; 
+    position: absolute;
+    z-index: 5;
+
+}
+
+#FS{
+
+    background:#aca;
+    color:#333;
+    padding:0 5px;
+    font-size:15pt;
+    text-transform:uppercase;
+    margin: 0px 0px 0px 0px;
+
+}
